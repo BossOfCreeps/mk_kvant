@@ -45,7 +45,7 @@ for den, temp in rows:
 dni = [s[0] for s in rows]
 tempy = [s[1] for s in rows]
 
-plt.pie(dni, tempy)
+plt.plot(dni, tempy)
 plt.title("Температура по дням")
 plt.grid(True)
 plt.show()
