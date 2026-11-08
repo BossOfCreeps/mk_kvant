@@ -1,3 +1,5 @@
+# pip3 install matplotlib
+
 import sqlite3
 import matplotlib.pyplot as plt
 
